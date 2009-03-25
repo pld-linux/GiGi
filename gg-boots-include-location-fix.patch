@@ -1,0 +1,11 @@
+--- include/GGControl.h.org	2005-07-28 00:30:58.000000000 +0200
++++ include/GGControl.h	2009-03-25 10:38:36.000000000 +0100
+@@ -35,7 +35,7 @@
+ #include "GGWnd.h"
+ #endif
+ 
+-#include <boost/serialization/is_abstract.hpp>
++#include <boost/type_traits/is_abstract.hpp>
+ 
+ namespace GG {
+ 
