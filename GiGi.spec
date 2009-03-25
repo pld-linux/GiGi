@@ -7,8 +7,8 @@ Version:	0.6.0
 Release:	0.1
 License:	GPL
 Group:		Applications
-Source0:	http://dl.sourceforge.net/gigi/%{name}-%{version}.tgz
-# Source0-md5:	a444e0a5cd528c91356490ed7f25e262
+Source0:	http://downloads.sourceforge.net/gigi/%{name}-%{version}.tgz
+# Source0-md5:	e100bad1c0713b3167a4fdc1cb8898c9
 Patch0:		gg-boots-include-location-fix.patch
 URL:		-
 BuildRequires:	scons
