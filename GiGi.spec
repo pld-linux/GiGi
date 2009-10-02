@@ -20,6 +20,8 @@ BuildRequires:	boost-signals >= 1.32
 BuildRequires:	boost-filesystem >= 1.32
 BuildRequires:	freetype-devel
 BuildRequires:	DevIL-devel >= 1.6.1
+BuildRequires:	OpenGL-devel
+BuildRequires:	OpenGL-GLU-devel
 BuildRequires:	SDL-devel >= 1.2.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
