@@ -69,7 +69,7 @@ Statyczna biblioteka ....
 
 %prep
 %setup -q -n GG
-%patch0
+%patch -P0
 
 %build
 scons
